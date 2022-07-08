@@ -1,0 +1,13 @@
+D:\storage\java\lambda\src\main\java\com\dk\lambda\exception\NotSupportedOperationException.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\dao\repository\RepositoryDynamoDb.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\handler\Handler.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\dao\entity\Product.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\service\ProductService.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\controller\GetController.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\controller\Controller.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\dao\connnection\ConnectionDynamoDB.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\dao\entity\ProductProducer.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\dao\repository\ProductRepository.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\controller\PostController.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\controller\PutController.java
+D:\storage\java\lambda\src\main\java\com\dk\lambda\service\impl\ProductServiceImpl.java
