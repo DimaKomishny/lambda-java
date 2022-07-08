@@ -1,8 +1,8 @@
 package com.dk.lambda.exception;
 
-public class NotSupportedOperationException extends RuntimeException {
+public class NotSupportedMethodException extends RuntimeException {
 
-    public NotSupportedOperationException() {
-        super("NOT SUPPORTED OPERATION");
+    public NotSupportedMethodException() {
+        super("NOT SUPPORTED METHOD");
     }
 }

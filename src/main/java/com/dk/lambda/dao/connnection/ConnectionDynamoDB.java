@@ -41,14 +41,14 @@ public class ConnectionDynamoDB {
     private AwsClientBuilder.EndpointConfiguration createEndpoint() {
         return new AwsClientBuilder
                 .EndpointConfiguration(
-                "dynamodb.eu-central-1.amazonaws.com",
-                "eu-central-1");
+                "",
+                "");
     }
 
     private AWSStaticCredentialsProvider createCredentialProvider() {
         return new AWSStaticCredentialsProvider(
-                new BasicAWSCredentials("AKIA2RSWKCBZJE7RNDEJ",
-                        "v+3l+IjRU38v5Ad7kXkz5UO2gDyenI/2m7S0nv89")
+                new BasicAWSCredentials("",
+                        "")
         );
     }
 

@@ -1,11 +1,12 @@
 com\dk\lambda\controller\PutController.class
 com\dk\lambda\handler\Handler.class
 com\dk\lambda\controller\Controller.class
+com\dk\lambda\controller\DeleteController.class
+com\dk\lambda\exception\NotSupportedMethodException.class
 com\dk\lambda\service\ProductService.class
 com\dk\lambda\dao\entity\Product.class
 com\dk\lambda\dao\repository\RepositoryDynamoDb.class
 com\dk\lambda\controller\GetController.class
-com\dk\lambda\exception\NotSupportedOperationException.class
 com\dk\lambda\controller\PostController.class
 com\dk\lambda\dao\entity\ProductProducer.class
 com\dk\lambda\dao\repository\ProductRepository.class
