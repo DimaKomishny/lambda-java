@@ -12,7 +12,6 @@ import com.dk.lambda.controller.PostController;
 import com.dk.lambda.controller.PutController;
 import com.dk.lambda.exception.NotSupportedMethodException;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -54,7 +53,7 @@ public class Handler implements RequestHandler<APIGatewayProxyRequestEvent, APIG
         APIGatewayProxyResponseEvent responseEvent = new APIGatewayProxyResponseEvent();
         responseEvent.setStatusCode(200);
         Map<String, String> headers = new HashMap<>();
-        headers.put("X-Custom-Header", "Lambda Header");
+        headers.put("X-Custom-Header", "GET Lambda Header");
         responseEvent.setHeaders(headers);
         return responseEvent;
     }

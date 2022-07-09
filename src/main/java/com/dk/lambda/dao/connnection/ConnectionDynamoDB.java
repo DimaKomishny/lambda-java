@@ -9,6 +9,10 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 
 public class ConnectionDynamoDB {
 
+    private static final String SERVICE_ENDPOINT = "SERVICE_ENDPOINT_CUST";
+    private static final String SIGNING_REGION = "SIGNING_REGION_CUST";
+    private static final String ACCESS_KEY = "ACCESS_KEY_CUST";
+    private static final String SECRET_KEY = "SECRET_KEY_CUST";
     private static ConnectionDynamoDB instance;
     DynamoDBMapper dynamoDBMapper;
 
@@ -41,16 +45,14 @@ public class ConnectionDynamoDB {
     private AwsClientBuilder.EndpointConfiguration createEndpoint() {
         return new AwsClientBuilder
                 .EndpointConfiguration(
-                "",
-                "");
+                System.getenv(SERVICE_ENDPOINT),
+                System.getenv(SIGNING_REGION));
     }
 
     private AWSStaticCredentialsProvider createCredentialProvider() {
         return new AWSStaticCredentialsProvider(
-                new BasicAWSCredentials("",
-                        "")
+                new BasicAWSCredentials(System.getenv(ACCESS_KEY),
+                        System.getenv(SECRET_KEY))
         );
     }
-
-
 }
